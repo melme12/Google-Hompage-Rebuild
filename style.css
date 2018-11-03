@@ -14,7 +14,8 @@ body {
 }
 
 .material-icons {
-  font-size: 30px;
+  font-size: 24px;
+  padding: 3px;
   color: #737373;
   display: inline-block;
   vertical-align: middle;
@@ -67,22 +68,37 @@ main {
 }
 
 #logobox {
-
   height: 233px;
   width: 100%;
+  margin: 0px;
 }
 
 #logo {
+  display: block;
   width: 272px;
   height: 92px;
   padding-top: 109px;
-  display: block;
   margin-left: auto;
   margin-right: auto
 }
 
 #searchbox {
+  display: block;
+  width: 100%;
+  padding-top: 8px;
+  margin: 0px;
+}
 
+input {
+  display: block;
+  border: medium none;
+  padding: 8px 0px 0px 0px;
+  margin: 0px auto;
+  width: 632px;
+  height: 36px;
+  -moz-box-shadow:0 1px 2px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);
+  box-shadow:0 1px 2px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);
+  font: 16px arial,sans-serif;
 }
 
 #buttonbox {
@@ -91,6 +107,7 @@ main {
 
 #text-ad-box {
   text-align: center;
+  padding-top: 30px;
 }
 
 /* --------> FOOTER <-------- */
@@ -103,16 +120,20 @@ footer {
   margin: 0px;
   background-color: #f2f2f2;
   line-height: 40px;
+  color: #5f6368;
 }
 
 footer a {
   font-size: 15px;
-  color: #2e2721;
+  color: #5f6368;
   text-decoration: none;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 .footer-part {
-  color: #222;
   font-size: 15px;
   text-align: left;
   border-top: 1px solid #e4e4e4;
@@ -125,6 +146,7 @@ footer a {
   vertical-align: middle;
   float: left;
   padding-right: 27px;
+  font-size: 13px;
 }
 
 .footer-item-right {
@@ -132,4 +154,5 @@ footer a {
   vertical-align: middle;
   float: right;
   padding-left: 27px;
+  font-size: 13px;
 }
