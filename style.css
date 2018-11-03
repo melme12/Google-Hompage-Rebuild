@@ -99,8 +99,10 @@ footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
+  height: auto;
   margin: 0px;
   background-color: #f2f2f2;
+  line-height: 40px;
 }
 
 footer a {
@@ -113,27 +115,20 @@ footer a {
   color: #222;
   font-size: 15px;
   text-align: left;
-  line-height: 40px;
   border-top: 1px solid #e4e4e4;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-
-#footer-nav {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-
 .footer-item-left {
+  display: inline-block;
   vertical-align: middle;
   float: left;
   padding-right: 27px;
 }
 
 .footer-item-right {
+  display: inline-block;
   vertical-align: middle;
   float: right;
   padding-left: 27px;
