@@ -14,7 +14,8 @@ body {
 }
 
 .material-icons {
-  font-size: 30px;
+  font-size: 24px;
+  padding: 3px;
   color: #737373;
   display: inline-block;
   vertical-align: middle;
@@ -67,30 +68,72 @@ main {
 }
 
 #logobox {
-
   height: 233px;
   width: 100%;
+  margin: 0px;
 }
 
 #logo {
+  display: block;
   width: 272px;
   height: 92px;
   padding-top: 109px;
-  display: block;
   margin-left: auto;
   margin-right: auto
 }
 
 #searchbox {
+  width: 100%;
+  margin: 0px;
+}
 
+#searchbox input {
+  display: block;
+  border: medium none;
+  padding: 5px 9px 0px 16px;
+  margin: 0px auto;
+  width: 632px;
+  height: 44px;
+  -moz-box-shadow:0 1px 2px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);
+  box-shadow:0 1px 2px rgba(0,0,0,0.1),0 0 1px rgba(0,0,0,0.1);
+  font: 16px arial,sans-serif;
+  outline: none;
 }
 
 #buttonbox {
+  display: block;
+  height: 58px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 18px;
+}
 
+#buttonbox input {
+  display: inline;
+  margin: 11px 4px;
+  height: 36px;
+  line-height: 27px;
+  padding: 0px 16px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+#buttonbox input:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
 }
 
 #text-ad-box {
   text-align: center;
+  padding-top: 18px;
 }
 
 /* --------> FOOTER <-------- */
@@ -99,42 +142,43 @@ footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
+  height: auto;
   margin: 0px;
   background-color: #f2f2f2;
+  line-height: 40px;
+  color: #5f6368;
 }
 
 footer a {
   font-size: 15px;
-  color: #2e2721;
+  color: #5f6368;
   text-decoration: none;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 .footer-part {
-  color: #222;
   font-size: 15px;
   text-align: left;
-  line-height: 40px;
   border-top: 1px solid #e4e4e4;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-
-#footer-nav {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-
 .footer-item-left {
+  display: inline-block;
   vertical-align: middle;
   float: left;
   padding-right: 27px;
+  font-size: 13px;
 }
 
 .footer-item-right {
+  display: inline-block;
   vertical-align: middle;
   float: right;
   padding-left: 27px;
+  font-size: 13px;
 }
